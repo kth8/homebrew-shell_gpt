@@ -11,6 +11,7 @@ class Shellgpt < Formula
   license "MIT"
 
   depends_on "python"
+  depends_on "rust" => :build
 
  def install
    venv = virtualenv_create(libexec, "python")
