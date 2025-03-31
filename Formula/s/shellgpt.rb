@@ -1,4 +1,4 @@
-class ShellGpt < Formula
+class Shellgpt < Formula
   include Language::Python::Virtualenv
 
   desc "Command-line productivity tool powered by large language models"
