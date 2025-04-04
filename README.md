@@ -1,18 +1,10 @@
-# Unofficial Homebrew tap for [ShellGPT](https://github.com/TheR1D/shell_gpt)
+`brew install kth8/tap/<formula>`
 
-## How do I install this formulae?
-
-`brew install kth8/shell_gpt/shellgpt`
-
-Or `brew tap kth8/shell_gpt` and then `brew install shellgpt`.
+Or `brew tap kth8/tap` and then `brew install <formula>`.
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "kth8/shell_gpt"
-brew "shellgpt"
+ruby
+tap "kth8/tap"
+brew "<formula>"
 ```
-
-## Documentation
-
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
